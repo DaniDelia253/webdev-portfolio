@@ -1,0 +1,1 @@
+[BG image style influenced by this blog post.](https://css-tricks.com/perfect-full-page-background-image/)
