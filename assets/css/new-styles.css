@@ -74,6 +74,7 @@ header nav li {
 #about-me-content, #my-work-content, #contact-me-content {
     background-color: rgba(255, 255, 255, 0.712);
     padding: 20px;
+    border-radius: 20px;
 }
 
 #about-me-section h2, #my-work-section h2, #contact-me-section h2 {
@@ -94,9 +95,45 @@ header nav li {
     margin: 20px;
 }
 
+#my-work-content img {
+    padding: 0;
+    box-shadow: 5px 5px 15px rgb(80, 25, 0);
+
+}
+
+#my-work-content img:hover {
+    box-shadow: 15px 15px 50px rgb(80, 25, 0);
+}
+
+#contact-me-section svg {
+    max-height: 70px;
+    margin: 20px;
+}
 
 
+footer {
+    background-color: rgba(255, 255, 255, 0.753);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
 
+footer h2 {
+    color: var(--main-orange);
+    font-family: var(--accent-font);
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgb(80, 25, 0);
+}
+
+footer h2 span {
+    font-size: 20px;
+    margin-right: 8px;
+}
 
 
 
