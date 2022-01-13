@@ -98,6 +98,7 @@ header nav li {
 #my-work-content img {
     padding: 0;
     box-shadow: 5px 5px 15px rgb(80, 25, 0);
+    max-height: 190px;
 
 }
 
@@ -108,7 +109,10 @@ header nav li {
 #contact-me-section svg {
     max-height: 70px;
     margin: 20px;
+    min-height: 70px;
+
 }
+
 
 
 footer {
