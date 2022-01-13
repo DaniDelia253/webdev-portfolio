@@ -54,9 +54,23 @@ header ul {
     
 }
 
+.navbar-brand:hover {
+    font-size: 48px;
+    text-shadow: 2px 2px 5px rgb(80, 25, 0);
+    color: var(--main-orange);
+}
+
 header nav li {
     font-family: var(--main-font);
-    font-size: 20px;
+    font-size: 25px;
+
+}
+
+.nav-link:hover {
+    font-size: 28px;
+    text-shadow: 4px 3px 10px white;
+    color: var(--main-orange);
+    text-decoration: none;
 
 }
 
@@ -98,8 +112,10 @@ header nav li {
 #my-work-content img {
     padding: 0;
     box-shadow: 5px 5px 15px rgb(80, 25, 0);
-    max-height: 190px;
+}
 
+#scheduler {
+    max-height: 190px;
 }
 
 #my-work-content img:hover {
@@ -111,6 +127,21 @@ header nav li {
     margin: 20px;
     min-height: 70px;
 
+}
+
+#contact-me-section a {
+    font-family: var(--main-font);
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--main-orange);
+
+}
+
+#contact-me-section a:hover {
+    font-size: 28px;
+    text-shadow: 4px 3px 10px white;
+    color: var(--main-orange);
+    text-decoration: none;
 }
 
 
