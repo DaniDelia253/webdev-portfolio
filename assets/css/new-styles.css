@@ -1,21 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-yellow: rgba(255,191,75,1);
+    --main-orange: rgba(255,151,95,1);
+    --main-red: rgba(255,103,84,1);
+    --grey-text: rgb(80, 80, 80);
+}
+
+body {
+    --accent-font: 'Montagu Slab', serif;
+    --light-font: 'Neuton', serif;
+    --main-font: 'Vidaloka', serif;
+
+
+}
+
+
 img.bg {
-    /* Set rules to fill background */
+    z-index: -1;
     min-height: 100%;
     min-width: 1024px;
-
-    /* Set up proportionate scaling */
     width: 100%;
     height: auto;
-    
-    /* Set up positioning */
     position: fixed;
     top: 0;
     left: 0;
 }
+
+
+#nav-bar {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 5px 30px 0;
+}
+
+.nav-link, .navbar-brand {
+    text-decoration: none;
+    color: var(--main-orange);
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: var(--accent-font);
+    font-size: 45px;
+    
+}
+
+header nav li {
+    font-family: var(--main-font);
+    font-size: 20px;
+
+}
+
+#intro-section img {
+    max-height: 620px;
+}
+
+#intro-section h1 {
+    color: white;
+    font-size: 110px;
+    font-family: var(--accent-font);
+
+}
+
+#about-me-content, #my-work-content, #contact-me-content {
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 20px;
+}
+
+#about-me-section h2, #my-work-section h2, #contact-me-section h2 {
+    font-family: var(--accent-font);
+    color: var(--main-orange);
+    font-size: 58px;
+}
+
+#about-me-section p {
+    color: var(--main-orange);
+    font-family: var(--main-font);
+    font-size: 26px;
+    text-align: justify;
+}
+
+#about-me-section svg {
+    max-height: 90px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
     img.bg {
         left: 50%;
         margin-left: -512px;   /* 50% */
     }
-  }
+}
