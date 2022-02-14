@@ -246,6 +246,18 @@ footer h2 span {
 }
 
 @media screen and (max-width: 575px) {
+    .nav-link {
+        font-size: 20px;
+    }
+    
+    #img-container img {
+        max-height: 450px;
+    }
+
+    #img-text h1 {
+        font-size: 45px;
+    }
+
     #intro-section h1 {
         font-size: 70px ;
     }
