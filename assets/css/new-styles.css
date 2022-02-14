@@ -172,11 +172,81 @@ footer h2 span {
 
 
 
-
+@media screen and (max-width: 1200px) { /* Specific to this particular image */
+    #intro-section h1 {
+        font-size: 90px ;
+    }
+}
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
     img.bg {
         left: 50%;
         margin-left: -512px;   /* 50% */
+    }
+
+    #about-me-section h2, #my-work-section h2, #contact-me-section h2 {
+        font-size: 40px;
+    }
+    #about-me-section p {
+        font-size: 24px;
+    }
+    
+    #about-me-section svg {
+        max-height: 80px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    #intro-section h1 {
+        font-size: 70px ;
+    }
+    #nav-bar h1 {
+        width: 100%;
+        text-align: center;
+    }
+    #nav-bar nav {
+        width: 100%;
+        justify-content: center;
+    }
+    .my-work-img-container {
+        margin: 0!important;
+    }
+    .my-work-img {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #intro-section h1 {
+        font-size: 50px ;
+    }
+    #img-container {
+        width: 100%;
+    }
+    #img-container img {
+        max-height: 550px;
+    }
+    #img-text {
+        width: 100%;
+    }
+    #intro-section h1 {
+        font-size: 80px ;
+    }
+    #about-me-section p {
+        font-size: 20px;
+    }
+    
+    #about-me-section svg {
+        max-height: 80px;
+        margin: 5px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    #intro-section h1 {
+        font-size: 70px ;
     }
 }
