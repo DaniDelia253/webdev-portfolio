@@ -1,264 +1,269 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-    --main-yellow: rgba(255,191,75,1);
-    --main-orange: rgba(255,151,95,1);
-    --main-red: rgba(255,103,84,1);
-    --grey-text: rgb(80, 80, 80);
+  --main-yellow: rgba(255, 191, 75, 1);
+  --main-orange: rgba(255, 151, 95, 1);
+  --main-red: rgba(255, 103, 84, 1);
+  --grey-text: rgb(80, 80, 80);
 }
 
 body {
-    --accent-font: 'Montagu Slab', serif;
-    --light-font: 'Neuton', serif;
-    --main-font: 'Vidaloka', serif;
-
-
+  --accent-font: "Montagu Slab", serif;
+  --light-font: "Neuton", serif;
+  --main-font: "Vidaloka", serif;
 }
-
 
 img.bg {
-    z-index: -1;
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
+  z-index: -1;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
-
 
 #nav-bar {
-    background-color: rgba(255, 255, 255, 0.699);
-    padding: 5px 30px 0;
+  background-color: rgba(255, 255, 255, 0.699);
+  padding: 5px 30px 0;
 }
 
-.nav-link, .navbar-brand {
-    text-decoration: none;
-    color: var(--main-orange);
+.nav-link,
+.navbar-brand {
+  text-decoration: none;
+  color: var(--main-orange);
 }
 
 header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar-brand {
-    font-family: var(--accent-font);
-    font-size: 45px;
-    
+  font-family: var(--accent-font);
+  font-size: 45px;
 }
 
 .navbar-brand:hover {
-    font-size: 48px;
-    text-shadow: 2px 2px 5px rgb(80, 25, 0);
-    color: var(--main-orange);
+  font-size: 48px;
+  text-shadow: 2px 2px 5px rgb(80, 25, 0);
+  color: var(--main-orange);
 }
 
 header nav li {
-    font-family: var(--main-font);
-    font-size: 25px;
-
+  font-family: var(--main-font);
+  font-size: 25px;
 }
 
 .nav-link:hover {
-    font-size: 28px;
-    text-shadow: 4px 3px 10px white;
-    color: var(--main-orange);
-    text-decoration: none;
-
+  font-size: 28px;
+  text-shadow: 4px 3px 10px white;
+  color: var(--main-orange);
+  text-decoration: none;
 }
 
 #intro-section img {
-    max-height: 620px;
+  max-height: 620px;
 }
 
 #intro-section h1 {
-    color: white;
-    font-size: 110px;
-    font-family: var(--accent-font);
-
+  color: white;
+  font-size: 110px;
+  font-family: var(--accent-font);
 }
 
-#about-me-content, #my-work-content, #contact-me-content {
-    background-color: rgba(255, 255, 255, 0.712);
-    padding: 20px;
-    border-radius: 20px;
+#about-me-content,
+#my-work-content,
+#contact-me-content {
+  background-color: rgba(255, 255, 255, 0.712);
+  padding: 20px;
+  border-radius: 20px;
 }
 
-#about-me-section h2, #my-work-section h2, #contact-me-section h2 {
-    font-family: var(--accent-font);
-    color: var(--main-orange);
-    font-size: 58px;
+#about-me-section h2,
+#my-work-section h2,
+#contact-me-section h2 {
+  font-family: var(--accent-font);
+  color: var(--main-orange);
+  font-size: 58px;
 }
 
 #about-me-section p {
-    color: var(--main-orange);
-    font-family: var(--main-font);
-    font-size: 26px;
-    text-align: justify;
+  color: var(--main-orange);
+  font-family: var(--main-font);
+  font-size: 26px;
+  text-align: justify;
 }
 
 #about-me-section svg {
-    max-height: 90px;
-    margin: 20px;
+  max-height: 90px;
+  margin: 20px;
 }
 
 #my-work-content img {
-    padding: 0;
-    box-shadow: 5px 5px 15px rgb(80, 25, 0);
+  padding: 0;
+  box-shadow: 5px 5px 15px rgb(80, 25, 0);
 }
 
 #scheduler {
-    max-height: 190px;
+  max-height: 190px;
 }
 
 #my-work-content img:hover {
-    box-shadow: 15px 15px 50px rgb(80, 25, 0);
+  box-shadow: 15px 15px 50px rgb(80, 25, 0);
 }
 
 #contact-me-section svg {
-    max-height: 70px;
-    margin: 20px;
-    min-height: 70px;
-
+  max-height: 70px;
+  margin: 20px;
+  min-height: 70px;
 }
 
 #contact-me-section a {
-    font-family: var(--main-font);
-    font-size: 25px;
-    text-decoration: none;
-    color: var(--main-orange);
-
+  font-family: var(--main-font);
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--main-orange);
 }
 
 #contact-me-section a:hover {
-    font-size: 28px;
-    text-shadow: 4px 3px 10px white;
-    color: var(--main-orange);
-    text-decoration: none;
+  font-size: 28px;
+  text-shadow: 4px 3px 10px white;
+  color: var(--main-orange);
+  text-decoration: none;
 }
 
+.modal-header {
+  font-family: var(--light-font);
+  background-image: url(../images/new-portfolio-bg.jpeg);
+}
 
+.modal-body a {
+  font-family: var(--light-font);
+  text-decoration: none;
+  color: black;
+}
 
 footer {
-    background-color: rgba(255, 255, 255, 0.753);
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  background-color: rgba(255, 255, 255, 0.753);
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 footer h2 {
-    color: var(--main-orange);
-    font-family: var(--accent-font);
-    font-size: 30px;
-    font-weight: lighter;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    text-shadow: 2px 2px 5px rgb(80, 25, 0);
+  color: var(--main-orange);
+  font-family: var(--accent-font);
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-shadow: 2px 2px 5px rgb(80, 25, 0);
 }
 
 footer h2 span {
-    font-size: 20px;
-    margin-right: 8px;
+  font-size: 20px;
+  margin-right: 8px;
 }
 
-
-
-@media screen and (max-width: 1200px) { /* Specific to this particular image */
-    #intro-section h1 {
-        font-size: 90px ;
-    }
+@media screen and (max-width: 1200px) {
+  /* Specific to this particular image */
+  #intro-section h1 {
+    font-size: 90px;
+  }
 }
 
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-    img.bg {
-        left: 50%;
-        margin-left: -512px;   /* 50% */
-    }
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
 
-    #about-me-section h2, #my-work-section h2, #contact-me-section h2 {
-        font-size: 40px;
-    }
-    #about-me-section p {
-        font-size: 24px;
-    }
-    
-    #about-me-section svg {
-        max-height: 80px;
-        margin: 20px;
-    }
+  #about-me-section h2,
+  #my-work-section h2,
+  #contact-me-section h2 {
+    font-size: 40px;
+  }
+  #about-me-section p {
+    font-size: 24px;
+  }
+
+  #about-me-section svg {
+    max-height: 80px;
+    margin: 20px;
+  }
 }
 
 @media screen and (max-width: 995px) {
-    #intro-section h1 {
-        font-size: 70px ;
-    }
-    #nav-bar h1 {
-        width: 100%;
-        text-align: center;
-    }
-    #nav-bar nav {
-        width: 100%;
-        justify-content: center;
-    }
-    .my-work-img-container {
-        margin: 0!important;
-    }
-    .my-work-img {
-        width: 100%;
-        margin: 20px;
-    }
+  #intro-section h1 {
+    font-size: 70px;
+  }
+  #nav-bar h1 {
+    width: 100%;
+    text-align: center;
+  }
+  #nav-bar nav {
+    width: 100%;
+    justify-content: center;
+  }
+  .my-work-img-container {
+    margin: 0 !important;
+  }
+  .my-work-img {
+    width: 100%;
+    margin: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    #intro-section h1 {
-        font-size: 50px ;
-    }
-    #img-container {
-        width: 100%;
-    }
-    #img-container img {
-        max-height: 550px;
-    }
-    #img-text {
-        width: 100%;
-    }
-    #intro-section h1 {
-        font-size: 80px ;
-    }
-    #about-me-section p {
-        font-size: 20px;
-    }
-    
-    #about-me-section svg {
-        max-height: 80px;
-        margin: 5px;
-    }
+  #intro-section h1 {
+    font-size: 50px;
+  }
+  #img-container {
+    width: 100%;
+  }
+  #img-container img {
+    max-height: 550px;
+  }
+  #img-text {
+    width: 100%;
+  }
+  #intro-section h1 {
+    font-size: 80px;
+  }
+  #about-me-section p {
+    font-size: 20px;
+  }
 
+  #about-me-section svg {
+    max-height: 80px;
+    margin: 5px;
+  }
 }
 
 @media screen and (max-width: 575px) {
-    .nav-link {
-        font-size: 20px;
-    }
-    
-    #img-container img {
-        max-height: 450px;
-    }
+  .nav-link {
+    font-size: 20px;
+  }
 
-    #img-text h1 {
-        font-size: 45px;
-    }
+  #img-container img {
+    max-height: 450px;
+  }
 
-    #intro-section h1 {
-        font-size: 70px ;
-    }
+  #img-text h1 {
+    font-size: 45px;
+  }
+
+  #intro-section h1 {
+    font-size: 70px;
+  }
 }
